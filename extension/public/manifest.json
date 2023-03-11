@@ -1,0 +1,22 @@
+{
+  "name": "DeepFryer Extension",
+  "description": "Present prices history graphs on the relevant product page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "js/content_script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}

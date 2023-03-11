@@ -1,0 +1,35 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.216",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "2.8.4",
+    "ts-loader": "^9.4.2",
+    "typescript": "*",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
