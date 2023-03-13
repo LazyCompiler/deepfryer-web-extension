@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack/webpack.prod.js",
     "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "watch-prod": "webpack --config webpack/webpack.prod.js --watch",
     "prepare": "husky install"
   },
   "keywords": [],

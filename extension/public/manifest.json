@@ -1,5 +1,5 @@
 {
-  "name": "DeepFryer Extension",
+  "name": "DeepFryer",
   "description": "Present prices history graphs on the relevant product page",
   "version": "0.0.1",
   "manifest_version": 3,
@@ -23,5 +23,12 @@
   "options_ui": {
     "page": "options.html"
   },
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
+  }
 }
