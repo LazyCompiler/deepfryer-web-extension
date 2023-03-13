@@ -14,3 +14,4 @@ extension/dist
 .vscode/
 
 .DS_Store
+*.zip
