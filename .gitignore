@@ -12,3 +12,5 @@ extension/dist
 
 # IDE
 .vscode/
+
+.DS_Store
