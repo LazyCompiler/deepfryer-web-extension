@@ -8,6 +8,7 @@ export default function main (apiToken: string): void {
   const chartFeature = new FryerChart()
 
   // DOM elements observer
+  // TODO - move the selector and the regex pattern to the server
   const domObserver = new DomListener([
     {
       selector: '#item_main',
