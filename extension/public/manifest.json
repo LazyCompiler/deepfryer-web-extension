@@ -1,7 +1,7 @@
 {
   "name": "DeepFryer - Price Tracker",
   "description": "Present prices history graphs on the relevant product page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "permissions": [
     "storage"

@@ -44,7 +44,6 @@ class DomListener {
       if (mutation.type === 'childList') {
         for (const node of mutation.addedNodes) {
           if (node instanceof HTMLElement) {
-            console.log('DOM Listener: Detected new element', node)
             for (const callback of this.callbacks) {
               const elements = node.querySelectorAll(callback.selector)
               for (const element of elements) {
