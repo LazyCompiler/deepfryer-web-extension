@@ -15,7 +15,8 @@ export default function main (apiToken: string): void {
       callback: (detectedElement) => {
         // Detect item ID from URL by Regex pattern
         // https://www.website.com/items/123456789-product-name
-        const pattern = /https:\/\/www.halilit.com\/items\/(\d+)-/
+        const pattern = /items\/(\d+)(?:-|$)/
+        
         const match = window.location.href.match(pattern)
         if (match != null) {
           const itemId = match[1]
